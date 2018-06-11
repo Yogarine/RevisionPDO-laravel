@@ -1,0 +1,24 @@
+{
+  "name": "yogarine/revision-pdo-laravel",
+  "description": "RevisionPDO integration for Laravel",
+  "type": "library",
+  "homepage": "https://bitbucket.org/Yogarine/revisionpdo-laravel",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Alwin Garside",
+      "email": "alwin@garsi.de"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "yogarine/revision-pdo": "*"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "RevisionPDO\\" : "src/"
+    }
+  }
+}
