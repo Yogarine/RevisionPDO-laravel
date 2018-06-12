@@ -21,5 +21,12 @@
     "psr-0" : {
       "RevisionPDO\\" : "src/"
     }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "RevisionPDO\\Illuminate\\Database\\RevisionPDOServiceProvider"
+      ]
+    }
   }
 }
