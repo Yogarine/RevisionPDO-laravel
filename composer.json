@@ -15,7 +15,7 @@
   "require": {
     "php": ">=5.4.0",
     "laravel/framework": "^4.1 || ^5.0",
-    "yogarine/revision-pdo": "*"
+    "yogarine/revision-pdo": "~0.1.0"
   },
   "autoload" : {
     "psr-0" : {
