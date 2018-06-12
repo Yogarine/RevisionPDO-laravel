@@ -16,6 +16,6 @@ trait RevisionPDOConnectorTrait
         /** @noinspection PhpUndefinedClassInspection */
         $pdo = parent::createConnection($dsn, $config, $options);
 
-        return new \RevisionPDO\PDO($pdo);
+        return new \RevisionPDO\PDO($pdo, null, null, $options);
     }
 }
