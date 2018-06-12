@@ -2,6 +2,8 @@
   <dictionary name="alwin">
     <words>
       <w>castable</w>
+      <w>pgsql</w>
+      <w>sqlsrv</w>
       <w>yogarine</w>
     </words>
   </dictionary>
