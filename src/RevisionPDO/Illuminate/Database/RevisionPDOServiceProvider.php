@@ -39,7 +39,6 @@ use Illuminate\Support\ServiceProvider;
  */
 class RevisionPDOServiceProvider extends ServiceProvider
 {
-
     /**
      * Register the service provider.
      *
