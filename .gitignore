@@ -3,16 +3,19 @@
 /.idea/*
 !/.idea/codeStyleSettings.xml
 !/.idea/codeStyles
-!/.idea/dataSources.xml
-!/.idea/dataSources.local.xml
-!/.idea/dictionaries
-!/.idea/inspectionProfiles/Project_Default.xml
-!/.idea/jsLibraryMappings.xml
 !/.idea/modules.xml
-!/.idea/myparcel-core.iml
 !/.idea/php.xml
+!/.idea/RevisionPDO-laravel.iml
 !/.idea/sqldialects.xml
 !/.idea/vcs.xml
+
+/.idea/dictionaries/*
+!/.idea/dictionaries/
+!/.idea/dictionaries/alwin.xml
+
+/.idea/inspectionProfiles/*
+!/.idea/inspectionProfiles/
+!/.idea/inspectionProfiles/Project_Default.xml
 
 /composer.lock
 /vendor
