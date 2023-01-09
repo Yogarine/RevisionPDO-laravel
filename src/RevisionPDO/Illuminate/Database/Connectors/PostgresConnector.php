@@ -1,6 +1,6 @@
 <?php
 /*  RevisionPDO for Laravel
-    Copyright © 2018 Alwin Garside
+    Copyright © 2018-2023 Alwin Garside
     All rights reserved.
 
     Redistribution and use in source and binary forms, with or without
@@ -44,10 +44,12 @@ class PostgresConnector extends \Illuminate\Database\Connectors\PostgresConnecto
      * @param  array   $config
      * @param  array   $options
      * @return \RevisionPDO\PDO
+     * @throws \Exception
+     *
+     * @noinspection PhpFullyQualifiedNameUsageInspection
      */
     public function createConnection($dsn, array $config, array $options)
     {
-        /** @noinspection PhpUndefinedClassInspection */
         $pdo = parent::createConnection($dsn, $config, $options);
 
         return new \RevisionPDO\PDO($pdo, null, null, $options);
